@@ -87,7 +87,7 @@ mixin _AbsentSchedulerBinding on BindingBase implements SchedulerBinding {
   int scheduleFrameCallback(
     callback, {
     bool rescheduling = false,
-    bool scheduleNewFrame = false,
+    bool scheduleNewFrame = true,
   }) {
     throw UnimplementedError();
   }
