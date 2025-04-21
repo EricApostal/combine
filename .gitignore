@@ -32,3 +32,6 @@ coverage/web_output/
 coverage
 
 /.fvm/**
+
+# FVM Version Cache
+.fvm/
